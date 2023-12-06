@@ -1,0 +1,52 @@
+h1 {
+    margin-top: 100px;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+
+.barChart {
+    max-width: 70%;
+    max-height: 20%;
+    display: block;
+    flex-direction: row;
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+
+img {
+    max-width: 20%;
+    max-height: 20%;
+  }
+
+  .active {
+    background-color: #1bada8;
+  }
